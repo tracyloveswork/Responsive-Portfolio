@@ -1,0 +1,421 @@
+/*html5 display rule*/
+
+address,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.4);
+    background-image: url(../images/background-pattern-black.jpg);
+    font-family: 'Montserrat', sans-serif;
+    color: #ccc;
+}
+
+header {
+    background-color: #222;
+    height: 80px;
+}
+
+h1 {
+    position: relative;
+    top: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ccc;
+}
+
+nav {
+    float: right;
+}
+
+#name {
+    color: #F8971D;
+    font-size: 18px;
+    background-color: #000;
+    float: left;
+    height: 80px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    margin-bottom: 10px;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+a:hover {
+    color: #FED301;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.navElement {
+    width: 100px;
+    font-size: 11px;
+    text-transform: uppercase;
+    float: left;
+    padding: 5px;
+}
+
+strong {
+    font-weight: bold;
+    color: #F8971D;
+}
+
+.highlighted {
+    font-family: 'Playfair Display', serif;
+    color: #26B4D9;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: 13px;
+    left: 60px;
+    z-index: 1;
+}
+
+.highlighted2 {
+    font-family: 'Playfair Display', serif;
+    color: #26B4D9;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: none !important;
+    position: relative;
+    top: 5px;
+    left: -5px;
+    z-index: 1;
+}
+
+p,
+ul {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    vertical-align: middle;
+    background-color: #000;
+    height: 80px;
+}
+
+#footerText {
+    color: #999;
+    padding: 30px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 11px;
+    border-top: 1px solid #26B4D9;
+}
+
+#portrait {
+    float: left;
+    width: 200px;
+    padding-right: 20px;
+}
+
+section,
+aside {
+    background-color: black;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+section {
+    float: left;
+    width: 650px;
+}
+
+aside {
+    float: right;
+    width: 270px;
+}
+
+.icon {
+    float: left;
+    height: 60px;
+    padding-right: 15px;
+}
+
+.noSpaceRight {
+    padding-right: 0px !important;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 20px 0;
+    display: inline-block;
+    /*    border-radius: 4px;*/
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #F8971D;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 20px;
+    margin: 0;
+    border: none;
+    /*    border-radius: 4px;*/
+}
+
+input[type=submit]:hover {
+    background-color: #FED301;
+}
+
+#contactForm {
+    /*    border-radius: 5px;*/
+    background-color: #222;
+    padding: 20px;
+}
+
+.thumbnail {
+    width: 275px;
+    height: 205px;
+    border: 1px solid #121212;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: 275px 205px;
+    background-repeat: no-repeat;
+}
+
+#age {
+    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_sweptWing.jpg');
+    background-blend-mode: overlay;
+}
+
+#ecamps {
+    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_ecamps.jpg');
+    background-blend-mode: multiply;
+}
+
+#trivia {
+    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_trivia.jpg');
+    background-blend-mode: multiply;
+}
+
+#malts {
+    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_malts.jpg');
+    background-blend-mode: multiply;
+}
+
+#jw {
+    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_jw.jpg');
+    background-blend-mode: multiply;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ghost-button {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    top: 135px;
+    left: 35px;
+}
+
+a.ghost {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+a.ghost:hover {
+    color: #26B4D9;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+    background-color: #000;
+    color: #26B4D9;
+}
+
+#end {
+    height: 60px;
+}
+
+
+/* Width at 960px and below */
+
+@media screen and (max-width: 980px) {
+    /* Style changes here */
+    .container {
+        width: 728px;
+    }
+    section {
+        width: 420px;
+    }
+    #portrait {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* Width at 768px and below */
+
+@media screen and (max-width: 768px) {
+    /* Style changes here */
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    section {
+        float: none;
+        width: 100%;
+    }
+    aside {
+        float: none;
+        width: 100%;
+        margin-bottom: 180px;
+    }
+    
+    #portrait {
+        float: left;
+        width: 332px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* Width at 640px and below */
+
+@media screen and (max-width: 640px) {
+    /* Style changes here */
+    
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    section {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    aside {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    #portrait {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    
+    #name {
+    float: none;
+
+}
+    
+    header {
+        
+        align-content: center;
+        height:130px;
+        
+    }
+    
+    nav {
+        float: none;
+        position: absolute;
+        left: 28%;
+        padding: 0;
+
+    }
+    
+    h1 {
+        
+        text-align: center;
+    }
+    
+    .highlighted {
+        
+        display:none;
+    }
+    hr {
+        
+        padding: 0;
+        margin: 0 0 10px 0;
+    }
+    
+    .navElement {
+    width: auto;
+    float: none;   
+    padding: 0 20px 0 20px;
+    display: table-cell;
+}
+
+}
