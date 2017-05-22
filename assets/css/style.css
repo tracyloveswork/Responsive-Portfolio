@@ -23,8 +23,10 @@ summary {
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #000;
     background-image: url(../images/background-pattern-black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
     color: #ccc;
 }
@@ -226,7 +228,7 @@ input[type=submit]:hover {
 .thumbnail {
     width: 275px;
     height: 205px;
-    border: 1px solid #121212;
+    border: 1px solid #222;
     margin-top: 20px;
     margin-bottom: 20px;
     background-size: 275px 205px;
@@ -316,6 +318,28 @@ a.ghost:hover {
         padding-right: 0;
         padding-bottom: 10px;
     }
+    
+    .thumbnail {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .ghost-button {
+    top: 135px;
+    left: 60px;
+}
+    
+    .left {
+    float: none;
+    }
+
+.right {
+    float: none;
+    }
+
+    
 }
 
 
@@ -343,6 +367,26 @@ a.ghost:hover {
         padding-right: 30px;
         padding-bottom: 10px;
     }
+    
+     .thumbnail {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .ghost-button {
+    top: 135px;
+    left: 120px;
+}
+    
+    .left {
+    float: none;
+    }
+
+.right {
+    float: none;
+    }
 }
 
 
@@ -367,6 +411,7 @@ a.ghost:hover {
         width: 90%;
         margin: 0 auto;
         margin-top: 20px;
+        margin-bottom: 180px;
     }
     
     #portrait {
