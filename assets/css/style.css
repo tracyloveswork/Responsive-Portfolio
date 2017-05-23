@@ -252,7 +252,7 @@ input[type=submit]:hover {
 }
 
 #ecamps {
-    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_ecamps.png');
+    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_eCamps.png');
     background-blend-mode: multiply;
 }
 
