@@ -96,6 +96,13 @@ strong {
     color: #F8971D;
 }
 
+/* The animation code */
+@keyframes numbers {
+    0% {color: rgba(255, 255, 255, 0);}
+    75% {color: rgba(255, 255, 255, 1);}
+    100% {color: #26B4D9;}
+}
+
 .highlighted {
     font-family: 'Playfair Display', serif;
     color: #26B4D9;
@@ -105,6 +112,9 @@ strong {
     top: 13px;
     left: 60px;
     z-index: 1;
+    animation-name: numbers;
+    animation-duration: 2s;
+    /*animation-delay: 2s;*/
 }
 
 .highlighted2 {
@@ -118,6 +128,7 @@ strong {
     top: 5px;
     left: -5px;
     z-index: 1;
+
 }
 
 p,
@@ -241,7 +252,7 @@ input[type=submit]:hover {
 }
 
 #ecamps {
-    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_ecamps.jpg');
+    background-image: linear-gradient(to top, black 0%, white 100%), url('../images/thumbsPortfolioHW_ecamps.png');
     background-blend-mode: multiply;
 }
 
@@ -300,6 +311,7 @@ a.ghost:hover {
 #end {
     height: 60px;
 }
+
 
 
 /* Width at 960px and below */
